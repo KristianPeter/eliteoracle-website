@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite Oracle | Web 3 Blockchain Development</title>
     <link rel="stylesheet" href="tailwind.css">
+	<link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -28,24 +29,20 @@
                 <a href="#clients">Clients</a>
                 <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire Us</button></a>
 			</div>
-			
-        <!-- Hamburger Icon -->
-		<div class="flex md:hidden space-x-12">
-        	<button id="menu-btn" class="block hamburger focus:outline-none">
-			<span class="hamburger-top"></span>
-			<span class="hamburger-middle"></span>
-			<span class="hamburger-bottom"></span>
-	  		</button>
-		</div>
-
-	<!-- Mobile Menu -->
+			<!-- BUTTON -->
+        		<button id="menu-btn" class="md:hidden block hamburger focus:outline-none">
+				<span class="hamburger-top"></span>
+				<span class="hamburger-middle"></span>
+				<span class="hamburger-bottom"></span>
+	  			</button>
+			</div>
+		<!-- Mobile Menu -->
 		<div class="md:hidden">
-	  		<div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold sm:w-auto sm:self-center bg-white left-6 right-6 drop-shadow-md">
-				<a class="hover:text-brightRed" href="#">Pricing</a>
-				<a class="hover:text-brightRed" href="#">Product</a>
-				<a class="hover:text-brightRed" href="#">About Us</a>
-				<a class="hover:text-brightRed" href="#">Careers</a>
-				<a class="hover:text-brightRed" href="#">Community</a>
+	  		<div id="menu" class="absolute flex-col items-center hidden self-end py-4 mt-10 space-y-8 font-bold sm:w-auto sm:self-center bg-gray-800 left-10 right-10 drop-shadow-md">
+				<a class="hover:text-selected-text" href="#">Home</a>
+				<a class="hover:text-selected-text" href="#work">Our Work</a>
+				<a class="hover:text-selected-text" href="#clients">Clients</a>
+				<a class="hover:text-selected-text" href="#hire">Hire Us</a>
 	  		</div>
 		</div>
     </header>
@@ -221,7 +218,7 @@
 
 					<div class="mt-6">
 						<!-- Contact info -->
-						<a href="mailto:info@eliteoracle.com" class="text-secondary underline mt-3 block">Email: info@eliteoracle.com</a>
+						<a href="mailto:info@eliteoracle.com" class="text-md underline mt-3 block">Email: info@eliteoracle.com</a>
 
 						<!-- Socials -->
 						<div class="flex mt-20 space-x-6">

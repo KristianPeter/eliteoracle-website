@@ -59,11 +59,11 @@ form.addEventListener("submit", function (e) {
     });
 });
 
-const btn = document.getElementById('menu-btn')
-const nav = document.getElementById('menu')
+const btn = document.getElementById('menu-btn');
+const nv = document.getElementById('menu');
 
 btn.addEventListener('click', () => {
   btn.classList.toggle('open')
-  nav.classList.toggle('flex')
-  nav.classList.toggle('hidden')
-})
+  nv.classList.toggle('flex')
+  nv.classList.toggle('hidden')
+});
