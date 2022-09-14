@@ -21,19 +21,36 @@
 					<img class="w-16 md:w-32" src="img/eologo.png" alt="Elite Oracle">
 				</a>
 			</div>
+			<!-- Main Nav Menu -->
             <div class="hidden md:flex space-x-12 items-center">
                 <a href="#" class="text-selected-text">Home</a>
                 <a href="#work">Our Work</a>
                 <a href="#clients">Clients</a>
                 <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire Us</button></a>
-            </div>
-            <div class="md:hidden">
-                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
-            </div>
-        </div>
+			</div>
+			
+        <!-- Hamburger Icon -->
+		<div class="flex md:hidden space-x-12">
+        	<button id="menu-btn" class="block hamburger focus:outline-none">
+			<span class="hamburger-top"></span>
+			<span class="hamburger-middle"></span>
+			<span class="hamburger-bottom"></span>
+	  		</button>
+		</div>
+
+	<!-- Mobile Menu -->
+		<div class="md:hidden">
+	  		<div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold sm:w-auto sm:self-center bg-white left-6 right-6 drop-shadow-md">
+				<a class="hover:text-brightRed" href="#">Pricing</a>
+				<a class="hover:text-brightRed" href="#">Product</a>
+				<a class="hover:text-brightRed" href="#">About Us</a>
+				<a class="hover:text-brightRed" href="#">Careers</a>
+				<a class="hover:text-brightRed" href="#">Community</a>
+	  		</div>
+		</div>
     </header>
 
-
+<!-- Side Menu -->
     <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <div class="flex flex-wrap md:flex-nowrap">
 
